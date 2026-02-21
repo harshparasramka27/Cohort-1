@@ -122,4 +122,4 @@
 // console.log(a)
 // let a = "Arko" // ReferenceError: Cannot access 'a' before initialization
 
-let a = 10
+// const a = 10
