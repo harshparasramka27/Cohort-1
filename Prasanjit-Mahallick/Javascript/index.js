@@ -82,3 +82,45 @@
 //     }
 // }
 
+// let arr = [1,2,3,4]
+
+// key value pair.
+
+// let obj = {
+//     "Student" : "Prasanjit",
+//     "Mentor" : "Pratham"
+// }
+// console.log(arr)
+// console.log(obj.Mentor)
+
+// function print(a,b){
+//     console.log(a-b)
+// }
+// print("2",9)
+
+// const fn2 = function(a,b){
+//     console.log(a,b)
+// }
+
+// const fn = () => {
+//     console.log("Arrow")
+// }
+// fn()
+// fn2(2,5)
+
+// console.log("Start")
+// setTimeout(()=>{
+//     confirm.log("My process"),2000
+// })
+
+// console.log("End")
+
+// function name(){
+//     console.log(arguments)
+// }
+// name(1,"Hello",3)
+
+// const arrow = (...args) =>{
+//     console.log(args)
+// }
+// arrow(7,8,9)
