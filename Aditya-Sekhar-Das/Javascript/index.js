@@ -9,6 +9,8 @@ console.log(age);
 
 {
     const age1 = 20;
+    const name = "Aditya Sekhar Das";
+    console.log(name);
 }
 
 console.log(age1);
