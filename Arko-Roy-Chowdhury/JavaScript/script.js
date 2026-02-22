@@ -88,6 +88,8 @@
 
 // HO(2,3,print);
 
+
+//context switching and synchronous 
 // console.log("Start")
 
 // setTimeout(() => {
@@ -96,3 +98,48 @@
 
 // console.log("End")
 
+// function callback(){
+//     setTimeout(() => {
+//     console.log("Boiling milk")
+//     }, 2000)
+// }
+
+// console.log("Start")
+
+// setTimeout(() => {
+//     console.log("Boiling milk")
+// }, 2000)
+
+// setTimeout(fn, time in ms)
+
+// console.log("End")
+
+
+// console.log("Start")
+
+// const data = fetch("https://jsonplaceholder.typicode.com/todos/1");
+
+// //setTimeout(fn, time in ms)
+
+// console.log(data)
+
+// console.log("End")
+
+//Promise - an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value
+
+// async function asy(){
+//     console.log("Start")
+
+//     const data = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+
+//     //setTimeout(fn, time in ms)
+
+//     console.log(data)
+
+//     console.log("End")
+// }
+
+// //await can only be used inside an async function
+// //async function returns a promise
+
+// asy()
