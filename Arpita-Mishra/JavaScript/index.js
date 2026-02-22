@@ -26,6 +26,15 @@
 // }
 //  console.log(x)
 // var is global scoped and functional scoped
+// var x=10
+// function name(){
+//     var y=11;
+//     console.log(x)
+//     console.log(y)
+
+// }
+// console.log(y)
+// name()
 
 
 // {   let y=20
@@ -50,3 +59,39 @@
 
 
 // by default value of var is undefined
+
+//let
+//let globally and block c=scoped
+//let can be reinitialised but cant be redeclared
+// let x=10
+// {
+//     let x=11;
+// }
+// function name(){
+//     var y=11;
+//     console.log(x)
+//     console.log(y)
+
+// }
+// console.log(y)
+// name()
+
+/*
+const
+global and blocked scope
+redeclare and reinitialise both not possible
+value cannot be changed
+*/
+
+// const x=10
+// x=11; //not possible
+
+// {
+//     let x=10
+//     console.log(x)
+//     {
+//         console.log(x)
+//         let x=11
+//     }
+//     console.log(x)
+// }
