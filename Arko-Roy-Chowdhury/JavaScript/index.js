@@ -1,6 +1,6 @@
-console.log("Hello, World!");
-console.log("Second");
-console.log("Third");
+// console.log("Hello, World!");
+// console.log("Second");
+// console.log("Third");
 
 //variables
 // var let const
@@ -139,3 +139,20 @@ console.log("Third");
 //         console.log(name)
 //     }
 // }
+
+//Revision - 22/02/2026
+
+// var x; //declaration
+// x = 10; // initiatlization
+// x = 20; // reassignment
+
+// function name(){
+//     var y=11
+//     console.log(x)
+//     console.log(y)
+// }
+
+// console.log(y) // ReferenceError: y is not defined
+
+// name()
+
