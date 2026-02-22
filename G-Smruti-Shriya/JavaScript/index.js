@@ -117,3 +117,8 @@ const d = await fetch("https://jsonplaceholder.typicode.com/todos/1")
 console.log(d)   
 }
 asy()
+
+const arrow = (...args) => {
+    console.log(args)
+}
+
