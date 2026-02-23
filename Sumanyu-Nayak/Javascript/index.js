@@ -104,7 +104,8 @@
 // asy()
 
 
-const arrow=(...args)=>{
-    console.log(args);
-}
-arrow(1,"hello",5)
+// const arrow=(...args)=>{// ... collect the meaning values into one array but without using ... it will be treated as separate arguments and only the first argument will be printed .
+//     console.log(args);
+// }
+// arrow(1,"hello",5)
+
