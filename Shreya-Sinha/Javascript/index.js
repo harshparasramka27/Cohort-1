@@ -40,3 +40,15 @@
 // var x =10
 //const redeclare and reinitialize both not possible
 //reiniatlize mtlb value cannot be changed
+//key value pair
+/* let /const obj namname ={
+
+
+"key1" : "value1",
+"key"
+}
+javascript single threaded hai
+
+
+
+*/
