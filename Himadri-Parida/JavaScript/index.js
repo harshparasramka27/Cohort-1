@@ -67,21 +67,21 @@ console.log(name)
 // Hoisting  --> javascript first read the line before executing
 console.log(a) //--> this is Executed Before in
 var a = 10 
-let a = 10 //--> this is temporary dead zone but hoisting is done ... Shows Error
-// lines before this lines are Known as temporary dead Zone
-const a = 10 //--> this is temporary dead zone but hoisting is done   .... Shows Error 
+// let a = 10 //--> this is temporary dead zone but hoisting is done ... Shows Error
+// // lines before this lines are Known as temporary dead Zone
+// const a = 10 //--> this is temporary dead zone but hoisting is done   .... Shows Error 
 
-{
-    console.log(name)
-    let name = "Himadri"
-}
+// {
+//     console.log(name)
+//     let name = "Himadri"
+// }
 
 {
     let name = "Himadri"
     console.log(name) //---> Himadri
     {
         console.log(name) //---> this Gives the Error
-        let name = "Himadri"
+        // let name = "Himadri"
         console.log(name)
     }
 }
@@ -127,7 +127,7 @@ function print(a,b){
 print(2,"3")
 
 // Arrow Function
-// () => {
+// () => {     --> syntax for the arrow function  
     
 // }
 
@@ -136,12 +136,14 @@ const fun = () => { //-->so basically storing a function
 }
 
 // we can alo store Normal Function
-
+const fun1 = function print(){
+    console.log("Normal Function")
+}
 
 
 
 // High Order Function
-function ho(a,b,cb){  //---> so, here we can add another function in the parameter     cb is the call back function
+function ho(a,b,cb){  //---> so, here we can add another function in the parameter .....   --> cb is the call back function
 
     console.log(a,b,cb)
 }
@@ -172,13 +174,13 @@ console.log("end")
 console.log("Start")
 
 const data = fetch('https://jsonplaceholder.typicode.com/todos/1');/*-->this fetch a promise function that means it will gives me the  data in the future 
-this is because of the synchoronous behaviour of js*/
+this is because of the synchoronous behaviour of js  */
 
 console.log(data)
 console.log("end")
 
 // through asynchoronous behaviour we are breaking the behaviour of the js and wwe are telling the program to wait for the process then proceed
-async function asy(){
+async function asy(){   //---> this is the syntax of the Asynchronoius Function .
     console.log("Start")
 
     const data = await fetch('https://jsonplaceholder.typicode.com/todos/1').then((fr)=>{
@@ -190,7 +192,7 @@ async function asy(){
         console.log(err)//--> to get the error message
     })
     .finally(()=>{
-        console,log("Process is Commplete")//--> executed every time
+        console.log("Process is Commplete")//--> executed every time
     })
 
     console.log(data)
@@ -202,10 +204,10 @@ asy()
 //     console.log(arguement) // This gives error becausee this not defined in arrow function
 // }
 
-function arr(){
-    console.log(arguements)
-}
-arr(1,2,3)
+// function arr(){
+//     console.log(arguements)
+// }
+// arr(1,2,3)
 console.log(...arr) //--> this actually spread function which is used to spread
 
 const arrow = (...args) =>{
