@@ -1,5 +1,11 @@
-/**this is function scoped var
- *  
+/*
+ * Java Script class
+
+
+
+
+
+
  * var x=10
  * function name(){
  * var y=11
@@ -10,10 +16,15 @@
  * name()
  */
 
+
+
+
 /**
  * var is in a form of array 
  * var can be re assigned which causes the problem in array like it stores a value of var first's value and then store the second value of var in the same array so declaration states that the variable is made before or not 
  */
+
+
 
 /**let
  * global and blocked scoped 
@@ -26,9 +37,13 @@
  * }
  */
 
+
+
 /**constant
  * global and blocked scope
  * neither redeclaration not reinitialize
+ * 
+ * 
  * 
  * const x //only declaration gives error so we have to initialize it too
  * const x=10; 
@@ -38,15 +53,21 @@
 
 
 
+
+
 // let arr = [1, 2, 3, 4, 5];
 // let obj= {
 //     student: "Dhruv",
 //     age: 19,
 // }
 
+
+
 // console.log(arr);
 // console.log(obj.student);
 // console.log(obj["student"]);
+
+
 
 
 // + number , string consider
@@ -55,23 +76,35 @@
 // print("2",2);
 // print(2,"2");
 
+
+
 // agar dono ka type number hai to wo number me convert ho jayega aur fir operation hoga
 // agar dono ka type string hai to wo string me convert ho jayega aur fir operation hoga
 // agar dono ka type alag hai to wo dono ko number me convert karne ki koshish karega aur fir operation hoga
 // agar dono ka type alag hai aur dono me se koi bhi number me convert nahi ho sakta to wo NaN return karega
 
-//                                   function generation types
+//        function generation types
+
+
+
+
 // function print(a ,b){
 //     console.log(a-b);
 // }
+
+
 // const fn2 = function(){
 //     console.log("this is function expression");
 // }
+
+
 // const fn = () => {
 //     console.log("this is arrow function");
 // }
 
-//                                       Higher order function
+
+
+//                Higher order function
 // function is a first class citizen in javascript
 // higher order function is a function that takes another function as an argument or returns a function as a result
 
